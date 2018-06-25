@@ -15,7 +15,14 @@ namespace TeamCityTraining.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page is here.";
+            ViewBag.Message = "Your application description.";
+
+            return View();
+        }
+
+        public ActionResult History()
+        {
+            ViewBag.Message = "Your application description.";
 
             return View();
         }
